@@ -1,9 +1,12 @@
 fastapi
-uvicorn
-langchain
-langgraph
-langchain_community
+uvicorn[standard]
+pydantic>=2
 yfinance
-ollama
-python-dotenv
+pandas
+numpy
+langgraph
+langchain-core
+langchain-community
+langchain-ollama
+httpx
 
